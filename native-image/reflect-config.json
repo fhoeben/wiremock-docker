@@ -1,0 +1,525 @@
+[
+{
+  "name":"com.github.tomakehurst.wiremock.admin.FindStubMappingsByMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetAllScenariosTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetGlobalSettingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.GetRecordingStatusTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.ImportStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.PatchExtendedSettingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventsByRequestPatternTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveServeEventsByStubMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.RemoveStubMappingsByMetadataTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.StartRecordingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.StopRecordingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.model.GetServeEventsResult",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.model.ListStubMappingsResult",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.model.PaginatedResult",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.model.PaginatedResult$Meta",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.model.RequestJournalDependentResult",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.CreateStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.DeleteStubFileTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.EditStubFileTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.EditStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForRequestPatternTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForRequestTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindNearMissesForUnmatchedTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.FindUnmatchedRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllStubFilesTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetAllStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetDocIndexTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetRecordingsIndexTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetRequestCountTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetServedStubTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GetSwaggerSpecTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.GlobalSettingsUpdateTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldCreateStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldEditStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldRemoveStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.OldResetRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RemoveStubMappingTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetRequestsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetScenariosTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetStubMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ResetToDefaultMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RootRedirectTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.RootTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.SaveMappingsTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.ShutdownServerTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.admin.tasks.SnapshotTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.common.ListOrSingleSerialiser",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.common.Metadata",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.common.Timing",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.extension.Parameters",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.Cookie",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.HttpHeadersJsonSerializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.LoggedResponse",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.MultiValue",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.Request",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.RequestMethod",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.http.ResponseDefinition",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.jetty9.JettyHttpServerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.NamedValueMatcher",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.RequestPattern",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.matching.ValueMatcher",
+  "allDeclaredMethods":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.ContentTypeSettingFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.TrailingSlashFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.servlet.WireMockHandlerDispatchingServlet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.tomakehurst.wiremock.stubbing.ServeEvent",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.stubbing.StubMapping",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.github.tomakehurst.wiremock.verification.LoggedRequest",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Boolean",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Cloneable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+  {"name": "com.sun.org.apache.xalan.internal.xsltc.trax.TransformerFactoryImpl",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.String",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getUptime","parameterTypes":[] }]
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Collection",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Date",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"java.util.HashMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.HashSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.util.LinkedHashMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.List",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Map",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.RandomAccess",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.UUID",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"wiremock.com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.com.google.common.collect.ImmutableCollection",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"wiremock.com.google.common.collect.ImmutableList",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"wiremock.com.google.common.collect.ImmutableMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"wiremock.com.google.common.collect.RegularImmutableList",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"wiremock.com.google.common.collect.RegularImmutableMap",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"wiremock.org.apache.commons.logging.LogFactory"
+},
+{
+  "name":"wiremock.org.apache.commons.logging.impl.Jdk14Logger",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"wiremock.org.apache.commons.logging.impl.LogFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.apache.commons.logging.impl.WeakHashtable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.http.HttpURI",
+  "methods":[{"name":"toURI","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.http.pathmap.PathSpecSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.server.Request",
+  "methods":[{"name":"getHttpURI","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.server.handler.gzip.GzipHandler",
+  "methods":[
+    {"name":"<init>","parameterTypes":[] },
+    {"name":"addIncludedMethods","parameterTypes":["java.lang.String[]"] }
+  ]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.servlet.DefaultServlet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.servlets.CrossOriginFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.util.RegexSet",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"wiremock.org.eclipse.jetty.util.log.Slf4jLog",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

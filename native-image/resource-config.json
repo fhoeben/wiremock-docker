@@ -1,0 +1,19 @@
+{
+  "resources":[
+    {"pattern":"META-INF/services/jdk.vm.ci.hotspot.HotSpotJVMCIBackendFactory"}, 
+    {"pattern":"META-INF/services/jdk.vm.ci.services.JVMCIServiceLocator"}, 
+    {"pattern":"META-INF/services/wiremock.org.eclipse.jetty.http.HttpFieldPreEncoder"}, 
+    {"pattern":"assets"}, 
+    {"pattern":"assets/swagger-ui/index.html"}, 
+    {"pattern":"jetty-dir.css"}, 
+    {"pattern":"keystore"}, 
+    {"pattern":"mozilla/public-suffix-list.txt"}, 
+    {"pattern":"org/slf4j/impl/StaticLoggerBinder.class"}, 
+    {"pattern":"wiremock/javax/servlet/LocalStrings.properties"}, 
+    {"pattern":"wiremock/javax/servlet/http/LocalStrings.properties"}, 
+    {"pattern":"wiremock/org/apache/http/client/version.properties"}, 
+    {"pattern":"wiremock/org/eclipse/jetty/http/encoding.properties"}, 
+    {"pattern":"wiremock/org/eclipse/jetty/http/mime.properties"}, 
+    {"pattern":"wiremock/org/eclipse/jetty/version/build.properties"}
+  ]
+}
