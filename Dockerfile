@@ -1,5 +1,5 @@
 FROM gcr.io/distroless/java:8
-ARG WIREMOCK_VERSION=2.25.1
+ARG WIREMOCK_VERSION=2.27.2
 
 USER nonroot
 ENTRYPOINT ["java", "-jar", "wiremock-standalone.jar"]
