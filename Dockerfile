@@ -24,7 +24,7 @@ RUN native-image \
   -cp .:wiremock-standalone.jar:slf4j-simple.jar \
   -H:Name=wiremock --static  --no-fallback \
   --report-unsupported-elements-at-runtime --allow-incomplete-classpath \
-  --enable-https \
+  --enable-https --initialize-at-run-time \
   com.github.tomakehurst.wiremock.standalone.WireMockServerRunner
 
 FROM scratch

@@ -47,6 +47,12 @@
   "name":"com.github.tomakehurst.wiremock.admin.StopRecordingTask",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
+  {
+    "name":"com.github.tomakehurst.wiremock.jetty94.Jetty94HttpServer",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  },
 {
   "name":"com.github.tomakehurst.wiremock.admin.model.GetServeEventsResult",
   "allDeclaredFields":true,
@@ -671,7 +677,7 @@
 {
   "name":"wiremock.org.eclipse.jetty.server.handler.gzip.GzipHandler",
   "methods":[
-    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"<init>","parameterTypes":[] },
     {"name":"addIncludedMethods","parameterTypes":["java.lang.String[]"] }
   ]
 },
